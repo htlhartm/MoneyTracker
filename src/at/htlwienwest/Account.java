@@ -9,11 +9,4 @@ public class Account {
         this.limit = limit;
     }
 
-    public int getAmount() {
-        return amount;
-    }
-
-    public int getLimit() {
-        return limit;
-    }
 }

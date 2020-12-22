@@ -8,5 +8,4 @@ public class Account {
         this.amount = amount;
         this.limit = 2000;
     }
-
 }

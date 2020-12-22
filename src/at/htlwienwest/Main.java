@@ -9,5 +9,8 @@ public class Main {
 
         Person person = new Person("Peter", "M",
                 LocalDate.of(1990, 01, 01), "Hauptstrasse 1");
+
+        Person person2 = new Person("Christoph", "H",
+                LocalDate.of(1986, 01, 01), "Hauptstrasse 2");
     }
 }

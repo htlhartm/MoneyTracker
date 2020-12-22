@@ -4,9 +4,6 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Herzlich willkommen");
         System.out.println("Es freut mich sehr, dass ihr hier seid");
-        System.out.println("Hi, alles ok?");
-        System.out.println("Hi, wie gehts?");
-        System.out.println("ok");
-        System.out.println("ok, richtig gut");
+
     }
 }

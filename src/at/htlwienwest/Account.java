@@ -4,8 +4,8 @@ public class Account {
     int amount;
     int limit;
 
-    public Account(int amount, int limit) {
-        this.amount = amount;
+    public Account(int limit) {
+        this.amount = 1000;
         this.limit = limit;
     }
 

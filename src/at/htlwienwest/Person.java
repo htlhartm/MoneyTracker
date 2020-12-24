@@ -5,13 +5,17 @@ import java.time.LocalDate;
 public class Person {
     private String firstName;
     private String lastName;
-    private LocalDate bithday;
+    private LocalDate birthday;
     private String address;
 
-    public Person(String firstName, String lastName, LocalDate bithday, String address) {
+    public Person(String firstName, String lastName, LocalDate birthday, String address) {
         this.firstName = firstName;
         this.lastName = lastName;
-        this.bithday = bithday;
+        this.birthday = birthday;
+        this.address = address;
+    }
+
+    public void setAddress(String address) {
         this.address = address;
     }
 
@@ -23,8 +27,8 @@ public class Person {
         return lastName;
     }
 
-    public LocalDate getBithday() {
-        return bithday;
+    public LocalDate getBirthday() {
+        return birthday;
     }
 
     public String getAddress() {

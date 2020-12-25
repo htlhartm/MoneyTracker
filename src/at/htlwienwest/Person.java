@@ -8,14 +8,9 @@ public class Person {
     private LocalDate birthday;
     private String address;
 
-    public Person(String firstName, String lastName, LocalDate birthday, String address) {
+    public Person(String firstName, String lastName, String address) {
         this.firstName = firstName;
         this.lastName = lastName;
-        this.birthday = birthday;
-        this.address = address;
-    }
-
-    public void setAddress(String address) {
         this.address = address;
     }
 
